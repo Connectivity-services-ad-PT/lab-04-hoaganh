@@ -1,21 +1,33 @@
-.git
-.github
-.venv
-__pycache__
-*.pyc
+# Python
+__pycache__/
+*.py[cod]
 *.pyo
-*.pyd
-.Python
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# Environment
 .env
 .env.*
 !.env.example
-node_modules
-reports
+
+# Dev tools
+.git/
+.gitignore
+node_modules/
+*.md
+!RUN_LOCAL.md
+
+# Reports & test artifacts
+reports/
+postman/
+mock-data/
+checklists/
+templates/
+docs/
+scripts/
+contracts/
 *.log
-.DS_Store
-.cache
-.pytest_cache
-dist
-build
-.coverage
-htmlcov
