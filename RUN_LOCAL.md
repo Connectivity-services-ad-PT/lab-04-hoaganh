@@ -59,3 +59,6 @@ source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 uvicorn core_app.main:app --app-dir src --host 0.0.0.0 --port 8000
 ```
+
+## Docker Hub Image
+docker pull hoanganh2k5/core-business:lab04
